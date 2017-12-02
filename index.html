@@ -1,0 +1,32 @@
+<html>
+<head>
+        <base href="">
+        <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+        <link rel="import" href="bower_components/iron-image/iron-image.html">
+        <link rel="import" href="bower_components/skeleton-carousel/skeleton-carousel.html">
+        <style is="custom-style">
+          iron-image {
+            display: block;
+            min-height: 350px;
+            background-color: #000
+          }
+        
+          skeleton-carousel {
+            min-height: 350px;
+          }
+        </style>
+</head>    
+<body>
+  <skeleton-carousel dots nav loop>
+    <div>
+      <img src="./img/bola.jpeg"></img>
+    </div>
+    <div>
+      <img src="./img/teste.jpeg"></img>
+    </div>
+    <div>
+      <img src="./img/índice.jpeg"></img>
+    </div>
+  </skeleton-carousel>
+</body>
+</html>
